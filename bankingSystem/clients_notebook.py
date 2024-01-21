@@ -18,3 +18,6 @@ class ClientsNotebook:
             if client["name"] == username:
                 return client 
         return {} 
+# TODO -> write to the csv
+    def save_client_list(self):
+        pass

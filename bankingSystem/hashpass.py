@@ -7,10 +7,4 @@ def hash_password(password: str) -> str:
     hashed_password = hashlib.sha256(password_bytes).hexdigest()
 
     return hashed_password
-    
-
-if __name__ == "__main__":
-    print(hash_password("adminpass"))
-    print(hash_password("danpass"))
-
 
